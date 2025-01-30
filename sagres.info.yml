@@ -1,9 +1,11 @@
 name: 'Sagres'
 description: 'Sagres'
-package: Semantic Tools
+package: Custom
 type: module
 core_version_requirement: ^10
 version: '0.9'
 libraries:
   - sagres/bootstrap
   - sagres/favicons
+dependencies:
+  - drupal:system
