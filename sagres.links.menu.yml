@@ -1,0 +1,6 @@
+sagres.settings:
+  title: 'Config Sagres'
+  description: 'Configure Sagres módule'
+  parent: system.admin_config
+  route_name: sagres.settings
+  weight: 100

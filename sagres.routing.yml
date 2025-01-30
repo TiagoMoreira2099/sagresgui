@@ -1,0 +1,24 @@
+sagres.landing_page:
+  path: '/sagres'
+  defaults:
+    _controller: 'Drupal\sagres\Controller\LandingPageController::content'
+    _title: 'Sagres Landing Page'
+  requirements:
+    _permission: 'access content'
+
+sagres.settings:
+  path: '/admin/config/sagres'
+  defaults:
+    _form: '\Drupal\sagres\Form\sagresSettingsForm'
+    _title: 'Sagres GUI Module Configurations'
+  requirements:
+    _permission: 'administer site configuration'
+
+sagres.access_denied:
+  path: '/acess-denied'
+  defaults:
+    _controller: '\Drupal\sagres\Controller\AccessDeniedController::accessDeniedPage'
+    _title: 'Access Denied'
+  requirements:
+    _access: 'TRUE'
+

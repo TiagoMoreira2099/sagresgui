@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function sagres_theme() {
+  return [
+    'landing_page' => [
+      'variables' => [
+        'buttons' => [],
+      ],
+      'template' => 'landing-page',
+    ],
+  ];
+}
