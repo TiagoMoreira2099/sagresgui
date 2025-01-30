@@ -26,11 +26,6 @@ function sagres_page_attachments(array &$attachments) {
   $config = \Drupal::config('sagres.settings');
   $title = $config->get('title');
   $subTitle = $config->get('subTitle');
-  // Altera o nome do site
-  \Drupal::configFactory()
-    ->getEditable('rep.settings')
-    ->set('site_name', $title)
-    ->save();
 
   // Atualiza a configuração do nome do site
   \Drupal::configFactory()

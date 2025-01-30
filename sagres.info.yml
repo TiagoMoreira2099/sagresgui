@@ -4,12 +4,6 @@ package: Semantic Tools
 type: module
 core_version_requirement: ^10
 version: '0.9'
-dependencies:
-  - drupal:rep
-  - drupal:sir
-  - drupal:std
-  - drupal:sem
-  - drupal:dpl
 libraries:
   - sagres/bootstrap
   - sagres/favicons

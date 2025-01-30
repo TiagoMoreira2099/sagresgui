@@ -11,12 +11,6 @@ function sagres_install() {
     ->set('page.front', '/sagres')
     ->save();
 
-  // Atualiza as configurações do outro módulo
-  \Drupal::configFactory()->getEditable('rep.settings')
-    ->set('preferred_instrument', 'Simulator')
-    ->set('preferred_detector', 'Simulation Technique')
-    ->save();
-
   // Modifica o título do menu usando configuração do menu
   \Drupal::configFactory()->getEditable('system.menu.main')
     ->save();
@@ -39,11 +33,5 @@ function sagres_uninstall() {
   // Restaura a homepage padrão
   \Drupal::configFactory()->getEditable('system.site')
     ->clear('page.front')
-    ->save();
-
-  // Restaura as configurações originais
-  \Drupal::configFactory()->getEditable('rep.settings')
-    ->set('preferred_instrument', 'Instrument')
-    ->set('preferred_detector', 'Detector')
     ->save();
 }
