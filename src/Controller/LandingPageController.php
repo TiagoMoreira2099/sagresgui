@@ -72,19 +72,19 @@ class LandingPageController extends ControllerBase {
 
     // Buttons definition
     $buttons_col1 = [
-      ['icon' => 'fas fa-chart-bar fa-2xl', 'label' => 'Manage<br /> Sites', 'url' => 'manage-sites'],
-      ['icon' => 'fas fa-magnifying-glass fa-2xl', 'label' => 'Search Simulator', 'url' => '#'],
+      ['icon' => 'fas fa-chart-bar fa-2xl', 'label' => 'Manage Sites', 'url' => 'manage-sites'],
+      ['icon' => 'fas fa-magnifying-glass fa-2xl', 'label' => 'Contracts', 'url' => '#'],
 
     ];
 
     $buttons_col2 = [
-      ['icon' => 'fas fa-chart-bar fa-2xl', 'label' => 'Manage<br /> Simulator Instances', 'url' => '#'],
-      ['icon' => 'fas fa-magnifying-glass fa-2xl', 'label' => 'Find and Access Data', 'url' => '#'],
+      ['icon' => 'fas fa-chart-bar fa-2xl', 'label' => 'KGR', 'url' => '#'],
+      ['icon' => 'fas fa-magnifying-glass fa-2xl', 'label' => 'Social', 'url' => '#'],
 
     ];
 
     $buttons_col3 = [
-      ['icon' => 'fas fa-chart-bar fa-2xl', 'label' => 'Manage Use Cases', 'url' => '#'],
+      ['icon' => 'fas fa-chart-bar fa-2xl', 'label' => 'User Management', 'url' => '#'],
       ['icon' => 'fas fa-magnifying-glass fa-2xl', 'label' => 'Social Search', 'url' => '#'],
     ];
 
